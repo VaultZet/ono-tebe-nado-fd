@@ -5,6 +5,7 @@
   display: grid;
   align-items: center;
   grid-template-columns: 1fr auto 1fr;
+  height: 293px;
   
  }
   nav ul{
@@ -12,12 +13,38 @@
     align-items: center;
     padding-top: 113px;
     padding-left: 50px;
-  }
+    gap: 31px;
+    list-style-type: circle;
+    width: 391px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
   
-  .address {
+    
+  }
+   .firstDot {
+    list-style-type: none;
+   }
 
+  
+
+  .address {
+    padding-top: 95px;
+    padding-right: 52px;
+    max-width: 239px;
+    top: 95px;
+    left: 810px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
   }
   
-  .logo {
-    display: inline-block; 
+  .logo .imglogo {
+    display: block;
+    width: 129px;
+    height: 105px; 
+    top: 92px;
+    left: 478;
+    
   }
