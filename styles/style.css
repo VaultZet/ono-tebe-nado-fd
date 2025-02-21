@@ -45,3 +45,20 @@ address {
   line-height: 24px;
   }
 
+  .coverimg {
+    position: relative;
+    z-index: -1;
+    
+  }
+
+  .textcover {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    font-weight: 700px;
+    line-height: 115px;
+  }
+
+  span {
+    display: block;
+  }
