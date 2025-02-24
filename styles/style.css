@@ -93,3 +93,45 @@ span {
   top: 435px;
   left: 663px;
 }
+
+.desriptionText {
+  position: absolute;
+  color: white;
+  top: 964px; 
+  left: 260px;
+  font-size: 22px;
+  font-weight: 400px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+
+.desriptionTextPt2 {
+  position: absolute;
+  color: white;
+  top: 964px; 
+  left: 500px;
+  font-size: 22px;
+  font-weight: 400px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 19px;
+
+}
+
+.desriptionBtn {
+  position: absolute;
+  color: white; 
+  background: none;
+  border: 1px solid white ;
+  top: 952px; 
+  right: 260px;
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 32px 11px 31px;
+}
