@@ -43,22 +43,53 @@ address {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  }
+}
 
-  .coverimg {
-    position: relative;
-    z-index: -1;
-    
-  }
+.cover {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-  .textcover {
-    position: absolute;
-    color: white;
-    font-size: 100px;
-    font-weight: 700px;
-    line-height: 115px;
-  }
+.coverimg {
+  position: relative;
+  z-index: -1;
+  height: 757px;
+  width: auto;
+  background: #000000;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-  span {
-    display: block;
-  }
+.textcover {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  font-weight: 700px;
+  line-height: 115px;
+  text-transform: uppercase;
+  letter-spacing: 31px;
+}
+
+span {
+  display: block;
+}
+
+.ono {
+  position: absolute;
+  top: 165px;
+  left: 50px;
+}
+
+.tebe {
+  position: absolute;
+  top: 300px;
+  left: 380px;
+}
+
+.nado {
+  position: absolute;
+  top: 435px;
+  left: 663px;
+}
