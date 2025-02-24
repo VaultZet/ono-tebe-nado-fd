@@ -5,23 +5,23 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding-top: 93px;
-  padding-left: 50px;
   padding-right: 52px;
   padding-bottom: 100px;
-  justify-content: space-between;
-  width: 100%;
+  padding-left: 50px;
 }
 
 nav ul {
   display: flex;
   align-items: center;
   gap: 30px;
-  list-style-type: circle;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 24px;
+  list-style-type: circle;
 }
 
 .mainnav {
@@ -34,14 +34,24 @@ nav ul {
 
 .logo {
   display: block;
-  height: 105px;
   width: 129px;
+  height: 105px;
+}
+
+.divImageMain {
+  position: relative;
+  z-index: -1;
+  width: 1100px;
+  height: au;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
 }
 
 address {
   padding-left: 192px;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 24px;
 }
 
@@ -53,23 +63,34 @@ address {
 }
 
 .coverimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Обрезка изображения по краям */
+  object-position: center;
+}
+
+.coverimg {
   position: relative;
   z-index: -1;
+  width: 100%;
   height: 757px;
-  width: auto;
-  background: #000000;
   margin: 0 auto;
   overflow: hidden;
+  background: #000000 /0.5;
+  
+  object-fit: cover; 
+  object-position: center;
+  
 }
 
 .textcover {
   position: absolute;
   color: white;
+  font-weight: 700;
   font-size: 100px;
-  font-weight: 700px;
   line-height: 115px;
-  text-transform: uppercase;
   letter-spacing: 31px;
+  text-transform: uppercase;
 }
 
 span {
@@ -96,11 +117,11 @@ span {
 
 .desriptionText {
   position: absolute;
-  color: white;
   top: 964px; 
   left: 260px;
+  color: white;
+  font-weight: 400;
   font-size: 22px;
-  font-weight: 400px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -109,11 +130,11 @@ span {
 
 .desriptionTextPt2 {
   position: absolute;
-  color: white;
   top: 964px; 
   left: 500px;
+  color: white;
+  font-weight: 400;
   font-size: 22px;
-  font-weight: 400px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -123,15 +144,107 @@ span {
 
 .desriptionBtn {
   position: absolute;
-  color: white; 
-  background: none;
-  border: 1px solid white ;
   top: 952px; 
   right: 260px;
+  border: 1px solid white ;
+  padding: 12px 32px 11px 31px;
+  color: white;
+  font-weight: 500;
   font-size: 22px;
-  font-weight: 500px;
   line-height: 26px;
   text-align: center;
+  text-transform: uppercase; 
+  background: none;
+}
+
+ul {
+  display: flex;
+   
+}
+
+.cardList {
+  width: 334px;
+  min-height: 596px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.lot {
+  padding-top: 180px;
+}
+.lots {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
   text-transform: uppercase;
-  padding: 12px 32px 11px 31px;
+  color: #000000;
+  position: relative;
+  left: 63px;
+}
+
+a article {
+  height: 100%;
+}
+ .titleLots{
+  position: absolute;
+  width: 334px;
+  color: white;
+  font-weight: 700px;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+ }
+
+ .desriptionLots{
+  position: absolute;
+  width: 334px;
+  color: white;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  
+  
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 334px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 25px; 
+  
+  
+}
+
+.listCard {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.ulCard {
+  justify-content: center;
+}
+
+.coverLots {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;
+  
+}
+ 
+.divImage {
+  position: relative;
+  z-index: -1;
+  width: auto;
+  height: 596px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
 }
