@@ -320,56 +320,56 @@ a article {
  }
 
  .about {
-  padding-top: 155px;
   display: flex;
+  padding-top: 155px;
   
  }
 
  .aboutMain {
+  position: relative;
+  top: 133px;
+  left: 359px;
   width: 449px;
   height: 693px;
-  position: relative;
-  left: 359px;
-  top: 133px;
  }
 
  .aboutLogo {
+  position: relative;
+  top: -3px;
+  left: 77px;
   width: 240px; 
   height: 240px; 
-  background-color: black; 
-  border-radius: 50%;
-  position: relative;
-  left: 77px;
-  top: -3px;
+  border-radius: 50%; 
+  background-color: black;
  }
 
  .aboutImage {
-  width: 148px;
-  height: 114px;
   position: relative;
   top: 64px;
   left: 46.48px;
+  width: 148px;
+  height: 114px;
  }
 
  .aboutTitle {
-  font-size: 40px;
+  position: relative;
+  top: -35px;
+  left: -212px;
   font-weight: 700;
+  font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
-  position: relative;
-  left: -212px;
-  top: -35px;
  }
 
  .aboutText {
   position: relative;
-  left: -212px;
   top: 64px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
+  left: -212px;
   width: 693px;
   
   margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
   
  }
