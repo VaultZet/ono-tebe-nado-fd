@@ -60,6 +60,7 @@ address {
   width: 1100px;
   margin: 0 auto;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .coverimg {
@@ -75,11 +76,11 @@ address {
   width: 100%;
   height: 757px;
   margin: 0 auto;
-  overflow: hidden;
-  background: #000000 /0.5;
   
   object-fit: cover; 
   object-position: center;
+  overflow: hidden;
+  background: #000000;
   
 }
 
@@ -162,24 +163,24 @@ ul {
    
 }
 
-.cardList {
-  width: 334px;
-  min-height: 596px; 
+.cardList { 
   display: flex;
   flex-direction: column;
+  width: 334px;
+  min-height: 596px;
 }
 
 .lot {
   padding-top: 180px;
 }
 .lots {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 47px;
-  text-transform: uppercase;
-  color: #000000;
   position: relative;
   left: 63px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
 }
 
 a article {
@@ -187,6 +188,8 @@ a article {
 }
  .titleLots1{
   position: absolute;
+  top: 74px;
+  left: 38px;
   width: 254px;
   color: white;
   font-weight: 700px;
@@ -195,12 +198,12 @@ a article {
   text-align: left;
   text-decoration: underline;
   text-transform: uppercase;
-  top: 74px;
-  left: 41px;
 }
 
 .titleLots2{
   position: absolute;
+  top: 74px;
+  left: 38px;
   width: 254px;
   color: white;
   font-weight: 700px;
@@ -209,12 +212,12 @@ a article {
   text-align: left;
   text-decoration: underline;
   text-transform: uppercase;
-  top: 74px;
-  left: 41px;
 }
 
 .titleLots3{
   position: absolute;
+  top: 74px;
+  left: 38px;
   width: 254px;
   color: white;
   font-weight: 700px;
@@ -223,44 +226,42 @@ a article {
   text-align: left;
   text-decoration: underline;
   text-transform: uppercase;
-  top: 74px;
-  left: 41px;
 }
 
  .desriptionLots1{
   position: absolute;
+  top: 430px;
+  left: 38px;
   width: 254px;
   color: white;
   font-weight: 400px;
   font-size: 20px;
   line-height: 24px;
-  text-align: left;
-  top: 430px;
-  left: 38px;  
+  text-align: left;  
 }
 
 .desriptionLots2{
   position: absolute;
+  top: 213px;
+  left: 39px;
   width: 254px;
   color: white;
   font-weight: 400px;
   font-size: 20px;
   line-height: 24px;
-  text-align: left;
-  top: 213px;
-  left: 39px;  
+  text-align: left;  
 }
 
 .desriptionLots3{
   position: absolute;
+  top: 310px;
+  left: 39px;
   width: 254px;
   color: white;
   font-weight: 400px;
   font-size: 20px;
   line-height: 24px;
-  text-align: left;
-  top: 310px;
-  left: 39px;  
+  text-align: left;  
 }
 
 
@@ -271,16 +272,16 @@ a article {
   row-gap: 20px;
   width: 334px;
   margin: 0 auto;
+  padding-top: 25px;
   overflow: hidden;
-  padding-top: 25px; 
-  
-  
+ 
 }
 
 .listCard {
   display: flex;
   flex-direction: row;
   gap: 25px;
+  
 }
 .ulCard {
   justify-content: center;
@@ -292,6 +293,7 @@ a article {
   object-fit: cover; 
   object-position: center;
   
+  
 }
  
 .divImage {
@@ -302,13 +304,72 @@ a article {
   margin: 0 auto;
   overflow: hidden;
   background: #000000;
+  
 }
 
 .more {
-  padding-top: 27px;
-  padding-left: 65px;
-  font-size: 20px;
+  padding-top: 30.5px;
+  padding-left: 60px;
   font-weight: 400;
+  font-size: 20px;
   line-height: 23px;
   text-decoration: underline;
 }
+ .coverImage {
+  background: rgba(0, 0, 0, 0.6);
+ }
+
+ .about {
+  padding-top: 155px;
+  display: flex;
+  
+ }
+
+ .aboutMain {
+  width: 449px;
+  height: 693px;
+  position: relative;
+  left: 359px;
+  top: 133px;
+ }
+
+ .aboutLogo {
+  width: 240px; 
+  height: 240px; 
+  background-color: black; 
+  border-radius: 50%;
+  position: relative;
+  left: 77px;
+  top: -3px;
+ }
+
+ .aboutImage {
+  width: 148px;
+  height: 114px;
+  position: relative;
+  top: 64px;
+  left: 46.48px;
+ }
+
+ .aboutTitle {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  text-transform: uppercase;
+  position: relative;
+  left: -212px;
+  top: -35px;
+ }
+
+ .aboutText {
+  position: relative;
+  left: -212px;
+  top: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 693px;
+  
+  margin-bottom: 22px;
+  
+ }
