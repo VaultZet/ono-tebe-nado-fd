@@ -68,15 +68,11 @@ address {
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.coverimg {
   position: relative;
   z-index: -1;
   width: 100%;
   height: 757px;
   margin: 0 auto;
-
   object-fit: cover;
   object-position: center;
   overflow: hidden;
