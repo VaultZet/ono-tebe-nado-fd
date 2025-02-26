@@ -72,7 +72,7 @@ header {
   left: -10px;
   display: block;
   width: 135px;
-  height: 130px;  
+  height: 130px;
 }
 
 .divImageMain {
@@ -195,7 +195,6 @@ span {
 .lotsCardList {
   position: relative;
   left: 24px;
-  display: flex;
   display: flex;
   flex-direction: row;
   gap: 25px;
