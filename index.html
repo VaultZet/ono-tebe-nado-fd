@@ -9,18 +9,17 @@
     <link href="/styles/global.css" rel="stylesheet" />
     <link href="/styles/style.css" rel="stylesheet" />
   </head>
-
   <body>
     <header class="header">
       <nav class="headerMenu">
         <ul class="headerLinksList">
-          <li class="firstDot"><a class="mainNav" href="#">главная</a></li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
+          <li class="firstDot"><a class="mainNav" href="#cover">главная</a></li>
+          <li><a href="#lots">посмотреть лоты</a></li>
+          <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <div class="headerLogo">
-        <a class="headerLogoLink">
+        <a href="#cover" class="headerLogoLink">
           <img class="imglogo" src="/images/logo-black.svg" alt="Логотип" />
         </a>
       </div>
@@ -31,7 +30,7 @@
       </address>
     </header>
     <main>
-      <section class="cover">
+      <section id="cover" class="cover">
         <div class="maintext">
           <h1 class="textcover">
             <span class="ono">оно</span><span class="tebe">тебе</span
@@ -47,12 +46,12 @@
         <span class="coverDescriptionText2">в которые никто не верил</span>
         <button class="betButton">Сделать ставку</button>
       </div>
-      <section class="lots">
+      <section id="lots" class="lots">
         <a>
           <h2 class="lotsHeading">Лоты</h2>
         </a>
         <ul class="lotsCardList">
-          <div class="listCard">
+          <li class="listCard">
             <li class="lotsCardListItem">
               <a>
                 <div class="card">
@@ -127,11 +126,11 @@
                 </div>
               </a>
             </li>
-          </div>
+          </li>
         </ul>
         <p class="lotsLookMoreLink">посмотреть больше</p>
       </section>
-      <div class="about">
+      <section id="about" class="about">
         <div class="aboutLogo">
           <img src="images/logo-white.svg" alt="Лого" class="aboutLogoImage" />
         </div>
@@ -155,7 +154,7 @@
             культовыми.
           </p>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer">
       <address class="addressFooter">
@@ -166,9 +165,9 @@
       </address>
       <nav class="footerMenu">
         <ul>
-          <li class="firstDot"><a href="#" class="mainnav">главная</a></li>
-          <li class="firstDot"><a href="#">посмотреть лоты</a></li>
-          <li class="firstDot"><a href="#">об аукционе</a></li>
+          <li class="firstDot"><a href="#cover" class="mainNav">главная</a></li>
+          <li class="firstDot"><a href="#lots">посмотреть лоты</a></li>
+          <li class="firstDot"><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <div class="imagesFoot">
