@@ -26,6 +26,11 @@ header {
   font-style: normal;
   line-height: 24px;
   list-style-type: circle;
+  text-underline-offset: 3px;
+}
+
+.headerLinksList li:nth-child() {
+  padding-top: 5px;
 }
 
 .headerLinksList li {
@@ -35,17 +40,22 @@ header {
 
 .headerLinksList li:nth-child(1) {
   margin-right: 26px;
+  padding-top: 5px;
   }
 
 .headerLinksList li:nth-child(2) {
   min-width: 154px;
   margin-right: 27.9px;
+  padding-top: 5px;
   padding-left: 5.5px;
+  text-underline-offset: 4px;
 }
 
 .headerLinksList li:nth-child(3) {
   min-width: 129px;
+  padding-top: 5px;
   padding-left: 7px;
+  text-underline-offset: 4px;
 }
 
 .mainNav {
@@ -87,8 +97,8 @@ header {
 
 address {
   position: relative;
-  top: 3px;
-  right: 34px;
+  top: 2.5px;
+  right: 35px;
   padding-left: 192px;
   font-weight: 400;
   font-size: 18px;
@@ -107,7 +117,7 @@ address {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.coverimg {
+.coverImg {
   position: relative;
   z-index: -1;
   width: 100%;
@@ -119,7 +129,7 @@ address {
   background: #000000;
 }
 
-.textcover {
+.textCover {
   position: absolute;
   color: white;
   font-weight: 700;
@@ -133,19 +143,19 @@ span {
   display: block;
 }
 
-.topLeftText {
+.ono {
   position: absolute;
   top: 165px;
   left: 50px;
 }
 
-.centerMiddleText {
+.tebe {
   position: absolute;
   top: 300px;
   left: 380px;
 }
 
-.bottonRightText {
+.nado {
   position: absolute;
   top: 435px;
   left: 663px;
@@ -164,7 +174,7 @@ span {
   word-spacing: 20px;
 }
 
-.coverDescriptionTextRigth {
+.coverDescriptionText2 {
   position: absolute;
   top: 964px;
   left: 500px;
@@ -225,7 +235,7 @@ a article {
   height: 100%;
 }
 
-.cardTitleStyle {
+.cardTitle1 {
   position: absolute;
   width: 254px;
   color: white;
@@ -237,7 +247,7 @@ a article {
   text-transform: uppercase;
 }
 
-.cardTextStyle {
+.cardTitle2 {
   position: absolute;
   width: 254px;
   color: white;
@@ -253,32 +263,31 @@ top: 74px;
   left: 41px;
 }
 
-.cardTitleBook {
+.cardTitle3 {
+  position: absolute;
   top: 74px;
   left: 40px;
 }
 
-.cardTitlePic {
-  top: 74px;
-  left: 40px;
-}
-
-.cardTextMovie {
+.cardText1 {
+  position: absolute;
   top: 430px;
   left: 41px;
 }
 
-.cardTextBook {
+.cardText2 {
+  position: absolute;
   top: 213px;
   left: 40px;
 }
 
-.cardTextPic {
+.cardText3 {
+  position: absolute;
   top: 310px;
   left: 40px;
 }
 
-.card {
+.cardMovie, .cardBook ,.cardPic {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -374,13 +383,14 @@ top: 74px;
 .footer {
   display: grid;
   grid-template-columns: repeat(3, auto);
+  gap: 110px;
   align-items: center;
   height: 180px;
   padding-top: 8px;
   padding-right: 10px;
 }
 
-.footAddress {
+.addressFooter {
   position: relative;
   top: 2px;
   left: -140.5px;
@@ -389,23 +399,22 @@ top: 74px;
   font-style: normal;
   line-height: 24px;
   text-align: left;
+  text-underline-offset: 4px;
 }
 
-.navFoot {
-  position: relative;
-  top: -14px;
-  left: -89px;
+.footerMenu {
+  padding-bottom: 29px;
+  padding-right: 63px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  text-underline-offset: 4px;
+  text-underline-offset: 2px;
 }
 
 .imagesFoot {
-  position: relative;
-  bottom: 22px;
-  left: 51px;
+  padding-bottom: 45px;
+  padding-right: 11px;
   display: flex;
   flex-direction: row;
   gap: 48px;
