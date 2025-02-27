@@ -46,7 +46,6 @@ html, body {
 
 .header, .main, .footer {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 ul, li, div, img {

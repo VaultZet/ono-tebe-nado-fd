@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link href="/fonts/fonts.css" rel="stylesheet" />
-    <link href="/styles/global.css" rel="stylesheet" />
-    <link href="/styles/style.css" rel="stylesheet" />
+    <link href="./fonts/fonts.css" rel="stylesheet" />
+    <link href="./styles/global.css" rel="stylesheet" />
+    <link href="./styles/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <nav class="headerMenu">
         <ul class="headerLinksList">
-          <li class="firstDot"><a class="mainNav" href="#cover">главная</a></li>
+          <li class="dot"><a class="mainNav" href="#cover">главная</a></li>
           <li><a href="#lots">посмотреть лоты</a></li>
           <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <div class="headerLogo">
         <a href="#cover" class="headerLogoLink">
-          <img class="imglogo" src="/images/logo-black.svg" alt="Логотип" />
+          <img class="imglogo" src="./images/logo-black.svg" alt="Логотип" />
         </a>
       </div>
       <address class="address">
@@ -31,44 +31,38 @@
     </header>
     <main>
       <section id="cover" class="cover">
-        <div class="maintext">
-          <h1 class="textcover">
-            <span class="ono">оно</span><span class="tebe">тебе</span
-            ><span class="nado">надо</span>
+        <div class="mainText">
+          <h1 class="textCover">
+            <span class="topLeftElement">оно</span><span class="middleCenterElement">тебе</span
+            ><span class="bottomRightElement">надо</span>
           </h1>
           <div class="divImageMain">
-            <img class="coverimg" src="/images/cover.jpg" alt="Логотип" />
+            <img class="coverImg" src="./images/cover.jpg" alt="Логотип" />
           </div>
         </div>
       </section>
-      <div class="coverDesription">
-        <span class="coverDescriptionText1">Аукцион вещей,</span>
-        <span class="coverDescriptionText2">в которые никто не верил</span>
-        <button class="betButton">Сделать ставку</button>
-      </div>
+      <h2 class="coverDesription">
+        <span class="coverDescriptionTextLeft">Аукцион вещей,</span>
+        <span class="coverDescriptionTextRight">в которые никто не верил</span>
+        <button type="button" class="betButton">Сделать ставку</button>
+      </h2>
       <section id="lots" class="lots">
-        <a>
-          <h2 class="lotsHeading">Лоты</h2>
-        </a>
+        <h3 class="lotsHeading">Лоты</h3>
         <ul class="lotsCardList">
           <li class="lotsCardListItem">
             <a>
-              <div class="card">
-                <article class="cardTitle1">
-                  Фильм режиссёра, который бросил киношколу
+              <div class="cardMovie">
+                <article class="cardTitleMovie">
+                  <h3>Фильм режиссёра, который бросил киношколу</h3>
                 </article>
-                <p class="cardText1">
+                <p class="cardTextMovie">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
                 </p>
                 <div class="coverImage">
                   <div class="divImage">
-                    <img
-                      class="coverLots"
-                      src="/images/card-lot-01.jpg"
-                      alt="ПервыйЛот"
-                    />
+                    
                   </div>
                 </div>
               </div>
@@ -76,11 +70,11 @@
           </li>
           <li class="lotsCardListItem">
             <a>
-              <div class="card">
-                <article class="cardTitle2">
-                  Книга, где описан один скучный день из жизни рекламного агента
+              <div class="cardBook">
+                <article class="cardTitleBook">
+                  <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
                 </article>
-                <p class="cardText2">
+                <p class="cardTextBook">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -92,7 +86,7 @@
                   <div class="divImage">
                     <img
                       class="coverLots"
-                      src="/images/card-lot-02.jpg"
+                      src="./images/card-lot-02.jpg"
                       alt="ВторойЛот"
                     />
                   </div>
@@ -102,11 +96,11 @@
           </li>
           <li class="lotsCardListItem">
             <a>
-              <div class="card">
-                <article class="cardTitle3">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
+              <div class="cardPic">
+                <article class="cardTitlePic">
+                <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 </article>
-                <p class="cardText3">
+                <p class="cardTextPic">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -116,7 +110,7 @@
                   <div class="divImage">
                     <img
                       class="coverLots"
-                      src="/images/card-lot-03.jpg"
+                      src="./images/card-lot-03.jpg"
                       alt="ТретийЛот"
                     />
                   </div>
@@ -125,18 +119,17 @@
             </a>
           </li>
         </ul>
-        <p class="lotsLookMoreLink">посмотреть больше</p>
+        <a href=#><p class="lotsLookMoreLink">посмотреть больше</p></a>
       </section>
       <section id="about" class="about">
         <div class="aboutLogo">
-          <img src="images/logo-white.svg" alt="Лого" class="aboutLogoImage" />
+          <img src="./images/logo-white.svg" alt="Лого" class="aboutLogoImage" />
         </div>
         <div class="aboutMain">
           <h3 class="aboutTitle">об аукционе</h3>
           <p class="aboutText">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть
-            <br />
             ни на один аукцион. Потому что кому нужен дневник девочки-подростка
             или картина, которую может нарисовать даже ребёнок? Кому нужны все
             эти странные вещи, созданные любителями?
@@ -144,7 +137,7 @@
           <p class="aboutText">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря <br />
+            Когда-то они казались просто неудачными. Но, несмотря 
             на критику, кажущуюся простоту или сложность, сейчас без этих лотов
             невозможно представить современную культуру. Когда в эти вещи не
             верил никто, продолжали верить их создатели. И сейчас эти лоты стали
@@ -154,7 +147,7 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="addressFooter">
+      <address class="address">
         <a href="tel:+9995555555">+9 999 555 5555<br /></a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge<br /></a>
         наб. Принсенграхт 263-265,<br />
@@ -162,22 +155,22 @@
       </address>
       <nav class="footerMenu">
         <ul>
-          <li class="firstDot"><a href="#cover" class="mainNav">главная</a></li>
-          <li class="firstDot"><a href="#lots">посмотреть лоты</a></li>
-          <li class="firstDot"><a href="#about">об аукционе</a></li>
+          <li class="dot"><a href="#cover" class="mainNav">главная</a></li>
+          <li class="dot"><a href="#lots">посмотреть лоты</a></li>
+          <li class="dot"><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
-      <div class="imagesFoot">
-        <div class="imageDivFoot">
-          <img src="images/yt.svg" alt="Ютуб" class="imageFoot" />
-        </div>
-        <div class="imageDivFoot">
-          <img src="images/vk.svg" alt="Вконтакте" class="imageFoot" />
-        </div>
-        <div class="imageDivFoot">
-          <img src="images/pinterest.svg" alt="Пинтерест" class="imageFoot" />
-        </div>
-      </div>
+      <ul class="imagesFoot">
+        <li class="imageDivFoot dot">
+          <img src="./images/yt.svg" alt="Ютуб" class="imageFoot" />
+        </li>
+        <li class="imageDivFoot dot">
+          <img src="./images/vk.svg" alt="Вконтакте" class="imageFoot" />
+        </li>
+        <li class="imageDivFoot dot">
+          <img src="./images/pinterest.svg" alt="Пинтерест" class="imageFoot" />
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
