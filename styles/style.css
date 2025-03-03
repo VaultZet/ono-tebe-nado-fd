@@ -27,6 +27,7 @@ header {
   line-height: 24px;
   list-style-type: circle;
   text-underline-offset: 3px;
+  
 }
 
 .headerLinksList li:nth-child() {
@@ -39,16 +40,18 @@ header {
 }
 
 .headerLinksList li:nth-child(2) {
-  min-width: 154px;
+  min-width: 160px;
   margin-right: 25px;
-  padding-left: 5.7px;
+  padding-left: 7.1px;
   margin-top: 6px;
+  text-decoration: underline;
 }
 
 .headerLinksList li:nth-child(3) {
   min-width: 129px;
-  padding-left: 11px;
+  padding-left: 5px;
   margin-top: 6px;
+  text-decoration: underline;
 }
 
 .mainNav {
@@ -79,8 +82,8 @@ header {
 }
 
 address {
-  padding-top: 5px;
-  padding-left: 196.5px;
+  padding-top: 6px;
+  padding-left: 198.5px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -154,7 +157,7 @@ span {
 
 .coverDescriptionTextLeft {
   position: absolute;
-  top: 671px;
+  top: 670px;
   left: 50px;
   color: white;
   font-weight: 400;
@@ -168,7 +171,7 @@ span {
 
 .coverDescriptionTextRight {
   position: absolute;
-  top: 671px;
+  top: 670px;
   left: 290px;
   color: white;
   font-weight: 400;
@@ -320,7 +323,7 @@ a article {
   background: #000000;
 }
 
-a, .lotsLookMoreLink {
+.lotsLookMoreLinkA {
   text-decoration: none;
 }
 
@@ -344,8 +347,6 @@ a, .lotsLookMoreLink {
 }
 
 .aboutMain {
-  margin-left: 285px;
-  margin-top: 132px;
   width: 449px;
   height: 693px;
 }
@@ -367,17 +368,28 @@ a, .lotsLookMoreLink {
 }
 
 .aboutTitle {
-  padding-top: 200px;
+  padding-top: 102px;
+  padding-left: 73px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
 }
 
-.aboutText {
-  padding-right: 20px;
-  width: 693px;
-  margin-bottom: 23px;
+.aboutTextUp {
+  padding-left: 73px;
+  padding-top: 75px;
+  width:750px;
+  margin-top: 23px; 
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.aboutTextDown {
+  padding-left: 73px;
+  padding-top: 24px;
+  width: 750px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -385,17 +397,17 @@ a, .lotsLookMoreLink {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 110px;
   align-items: center;
-  minheight: 180px;
-  padding-top: 8px;
+  min-height: 180px;
+  padding-top: 41px;
   padding-right: 10px;
 }
 
 footer .address {
-  padding-bottom: 2px;
-  padding-left: 84px;
+  margin-bottom: 61px;
+  padding-left: 51px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -405,18 +417,18 @@ footer .address {
 }
 
 .footerMenu {
-  padding-bottom: 29px;
-  padding-right: 63px;
+  padding-bottom: 89px;
+  padding-left: 14px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
 }
 
 .imagesFoot {
-  padding-bottom: 45px;
-  padding-right: 11px;
+  margin-bottom: 105px;
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
   gap: 48px;
