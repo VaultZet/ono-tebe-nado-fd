@@ -202,13 +202,14 @@ span {
 .lotsCardList {
   padding-left: 25px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
 .lotsCardListItem {
   display: flex;
   flex-direction: column;
+  flex: 0 1 calc(33.33% - 25px);
   width: 334px;
   min-height: 596px;
 }
