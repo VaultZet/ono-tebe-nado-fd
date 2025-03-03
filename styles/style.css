@@ -114,7 +114,7 @@ address {
 .coverImg {
   position: relative;
   width: 100%;
-  height: 757px;
+  min-height: 757px;
   margin: 0 auto;
   object-fit: cover;
   object-position: center;
@@ -184,7 +184,7 @@ span {
   position: absolute;
   top: 658px;
   right: 51px;
-  border: 1px solid white;
+  border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
   color: white;
   font-weight: 500;
@@ -197,8 +197,7 @@ span {
 }
 
 .lotsCardList {
-  position: relative;
-  left: 24px;
+  padding-left: 25px;
   display: flex;
   flex-direction: row;
   gap: 25px;
@@ -216,8 +215,7 @@ span {
 }
 
 .lotsHeading {
-  position: relative;
-  left: 63px;
+  padding-left: 65px;
   color: #000000;
   font-weight: 700;
   font-size: 40px;
@@ -327,7 +325,7 @@ a, .lotsLookMoreLink {
 }
 
 .lotsLookMoreLink {
-  padding-top: 30.3px;
+  padding-top: 31.3px;
   padding-left: 64px;
   font-weight: 400;
   font-size: 20px;
@@ -346,17 +344,14 @@ a, .lotsLookMoreLink {
 }
 
 .aboutMain {
-  position: relative;
-  top: 133px;
-  left: 359px;
+  margin-left: 285px;
+  margin-top: 132px;
   width: 449px;
   height: 693px;
 }
 
 .aboutLogo {
-  position: relative;
-  top: 0px;
-  left: 73px;
+  margin-left: 71px;
   width: 240px;
   height: 240px;
   border-radius: 50%;
@@ -372,9 +367,7 @@ a, .lotsLookMoreLink {
 }
 
 .aboutTitle {
-  position: relative;
-  top: -30.5px;
-  left: -214px;
+  padding-top: 200px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
@@ -382,9 +375,7 @@ a, .lotsLookMoreLink {
 }
 
 .aboutText {
-  position: relative;
-  top: 68px;
-  left: -215px;
+  padding-right: 20px;
   width: 693px;
   margin-bottom: 23px;
   font-weight: 400;
@@ -397,7 +388,7 @@ a, .lotsLookMoreLink {
   grid-template-columns: repeat(3, auto);
   gap: 110px;
   align-items: center;
-  height: 180px;
+  min-height: 180px;
   padding-top: 8px;
   padding-right: 10px;
 }
