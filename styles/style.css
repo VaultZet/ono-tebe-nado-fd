@@ -90,73 +90,69 @@ address {
   text-underline-offset: 4px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.divImageMain {
-  position: relative;
-  z-index: 1;
-  width: 1100px;
-  height: auto;
-  margin: 0 auto;
-  background: #000000;
-}
-
 .cover {
   position: relative;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
-.coverImg {
-  position: relative;
-  z-index: 0;
-  width: 100%;
-  min-height: 757px;
-  margin: 0 auto;
-  object-fit: cover;
-  object-position: center;
-}
-
-.textCover {
+.overlay {
   position: absolute;
-  z-index: 11;
-  color: white;
+  inset: 0;
+  background-color: rgb( 0, 0, 0, 0.6);
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 165px 50px 147px;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115px;
-  letter-spacing: 31px;
+  line-height: 115%;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-}
-
-span {
-  display: block;
+  color: #FFFFFF;
 }
 
 .topLeftElement {
-  padding-top: 167px;
-  padding-left: 48px;
+  align-self: flex-start;
+  z-index: 11;
 }
 
 .middleCenterElement {
-  padding-top: 20px;
-  padding-left: 379px;
+  display: block;
+  align-self: center;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  top: 22px;
+  left: 18px;
 }
 
 .bottomRightElement {
-  padding-top: 20px;
-  padding-left: 661px;
+  align-self: flex-end;
+  text-align: right;
+  z-index: 1;
+  position: relative;
+  top: 41px;
+  left: 29px;
 }
 
-.coverDescriptionTextLeft {
-  position: absolute;
-  top: 670px;
-  left: 50px;
+.coverDescription {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  padding: 0px 50px 55px 78px;
+  gap: 79px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.coverDescriptionText {
   z-index: 11;
   color: white;
   font-weight: 400;
@@ -164,27 +160,12 @@ span {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  word-spacing: 20px;
-}
-
-.coverDescriptionTextRight {
-  position: absolute;
-  top: 670px;
-  left: 290px;
-  z-index: 11;
-  color: white;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  word-spacing: 19px;
+  word-spacing: 18px;
+  position: relative;
+  right: 27px;
 }
 
 .betButton {
-  position: absolute;
-  top: 658px;
-  right: 51px;
   z-index: 11;
   border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
@@ -196,6 +177,7 @@ span {
   text-transform: uppercase;
   background: none;
 }
+
 
 .lotsCardList {
   display: flex;
