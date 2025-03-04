@@ -285,7 +285,7 @@ address {
 
 .about {
   display: flex;
-  padding-top: 174px;
+  padding-top: 155px;
 }
 
 .aboutMain {
@@ -359,7 +359,7 @@ footer .address {
 }
 
 .footerMenu {
-  padding-bottom: 89px;
+  padding-bottom: 88px;
   padding-left: 14px;
   font-weight: 400;
   font-size: 18px;
@@ -372,7 +372,7 @@ footer .address {
   display: flex;
   flex-direction: row;
   gap: 48px;
-  margin-bottom: 105px;
+  margin-bottom: 104px;
   padding-left: 10px;
 }
 
