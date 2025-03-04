@@ -178,26 +178,10 @@ address {
   background: none;
 }
 
-
-.lotsCardList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  padding-top: 5px;
-  padding-left: 25px;
-}
-
-.lotsCardListItem {
-  display: flex;
-  flex-direction: column;
-  flex: 0 1 calc(33.33% - 25px);
-  width: 334px;
-  min-height: 596px;
-}
-
 .lots {
   padding-top: 180px;
 }
+
 
 .lotsHeading {
   padding-left: 65px;
@@ -208,109 +192,76 @@ address {
   text-transform: uppercase;
 }
 
-a article {
-  height: 100%;
+.lotsCardList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding-top: 22px;
 }
 
-.cardMovie {
-  background: url("./images/card-lot-01.jpg");
-}
 
-.cardBook {
-  background: url("./images/card-lot-02.jpg");
-}
-
-.cardPic {
-  background: url("./images/card-lot-03.jpg");
-}
-
-.cardTitleMovie,
-.cardTitleBook,
-.cardTitlePic {
-  position: absolute;
-  top: 57px;
-  z-index: 1;
-  width: 254px;
-  margin: 0;
-  padding: 10px;
-  color: white;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: left;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-transform: uppercase;
-  left: 30px
-}
-
-.cardTextBook,
-.cardTextMovie,
-.cardTextPic {
-  position: absolute;
-  z-index: 1;
-  width: 274px;
-  margin: 0;
-  padding: 10px;
-  color: white;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: left;
-  left: 30px;
-}
-
-.cardTextMovie {
-  top: 414px;
-}
-
-.cardTextBook {
-  top: 197px;
-}
-
-.cardTextPic {
-  top: 292px;
+.lotsCardListItem {
+  list-style-type: none;
+  width: 334px;
+  min-height: 596px;
 }
 
 .cardContent {
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-.cardMovie,
-.cardBook,
-.cardPic {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 596px;
-  margin: 0 auto;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+}
+
+.cardMovie, .cardBook, .cardPic {
+  position: relative;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
-.coverLots {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.cardMovie {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
-.divImage {
-  position: relative;
-  z-index: 0;
-  width: auto;
-  height: 596px;
-  margin: 0 auto;
-  background: #000000;
+.cardBook {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.cardPic {
+   background-image: url(../images/card-lot-03.jpg);
+}
+
+.cardTitleMovie, .cardTitleBook, .cardTitlePic {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 1;
+}
+
+.cardTextMovie, .cardTextBook, .cardTextPic {
+  padding-bottom: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  z-index: 1;
 }
 
 .lotsLookMoreLinkA {
@@ -318,13 +269,14 @@ a article {
 }
 
 .lotsLookMoreLink {
-  padding-top: 31.3px;
+  padding-top: 48px;
   padding-left: 64px;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-decoration: underline;
   text-underline-offset: 4px;
+  padding-top: 31px;
 }
 
 .coverImage {
