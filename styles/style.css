@@ -38,19 +38,21 @@ header {
   margin-right: 24px;
 }
 
+.headerLinksList li:nth-child(2), .headerLinksList li:nth-child(3) {
+  text-decoration: underline;
+}
+
 .headerLinksList li:nth-child(2) {
   min-width: 160px;
   margin-top: 6px;
   margin-right: 25px;
   padding-left: 7.1px;
-  text-decoration: underline;
 }
 
 .headerLinksList li:nth-child(3) {
   min-width: 129px;
   margin-top: 6px;
   padding-left: 5px;
-  text-decoration: underline;
 }
 
 .mainNav {
@@ -81,8 +83,8 @@ header {
 }
 
 address {
-  padding-top: 6px;
-  padding-left: 198.5px;
+  padding-top: 7px;
+  padding-left: 197px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -121,6 +123,8 @@ address {
 .topLeftElement {
   align-self: flex-start;
   z-index: 11;
+  position: relative;
+  top: 2px;
 }
 
 .middleCenterElement {
@@ -130,7 +134,7 @@ address {
   z-index: 1;
   position: relative;
   top: 22px;
-  left: 18px;
+  left: 15px;
 }
 
 .bottomRightElement {
@@ -162,7 +166,7 @@ address {
   text-transform: uppercase;
   word-spacing: 18px;
   position: relative;
-  right: 27px;
+  right: 29px;
 }
 
 .betButton {
@@ -179,12 +183,12 @@ address {
 }
 
 .lots {
-  padding-top: 180px;
+  padding-top: 177px;
 }
 
 
 .lotsHeading {
-  padding-left: 65px;
+  padding-left: 63px;
   color: #000000;
   font-weight: 700;
   font-size: 40px;
@@ -198,7 +202,7 @@ address {
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
-  padding-top: 22px;
+  padding-top: 25px;
 }
 
 
@@ -209,7 +213,6 @@ address {
 }
 
 .cardContent {
-  position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -289,7 +292,7 @@ address {
 
 .aboutMain {
   width: 449px;
-  height: 693px;
+  height: auto;
 }
 
 .aboutLogo {
@@ -310,7 +313,7 @@ address {
 
 .aboutTitle {
   padding-top: 102px;
-  padding-left: 73px;
+  padding-left: 72px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
@@ -320,8 +323,8 @@ address {
 .aboutTextUp {
   width: 750px;
   margin-top: 23px;
-  padding-top: 75px;
-  padding-left: 73px;
+  padding-top: 76px;
+  padding-left: 72px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -330,7 +333,7 @@ address {
 .aboutTextDown {
   width: 750px;
   padding-top: 24px;
-  padding-left: 73px;
+  padding-left: 72px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -341,14 +344,14 @@ address {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   gap: 110px;
-  min-height: 180px;
-  padding-top: 41px;
-  padding-right: 10px;
+  height: auto;
+  padding-top: 177px;
+  padding-right: 13px;
 }
 
 footer .address {
   margin-bottom: 61px;
-  padding-left: 51px;
+  padding-left: 49px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -358,7 +361,7 @@ footer .address {
 }
 
 .footerMenu {
-  padding-bottom: 88px;
+  padding-bottom: 89px;
   padding-left: 14px;
   font-weight: 400;
   font-size: 18px;
@@ -371,7 +374,7 @@ footer .address {
   display: flex;
   flex-direction: row;
   gap: 48px;
-  margin-bottom: 104px;
+  margin-bottom: 106px;
   padding-left: 10px;
 }
 
