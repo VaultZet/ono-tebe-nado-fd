@@ -55,6 +55,19 @@ header {
   padding-left: 5px;
 }
 
+header .address {
+  padding-top: 7px;
+  padding-left: 197px;
+ }
+
+address {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  text-underline-offset: 4px;
+}
+
 .mainNav {
   text-decoration: none;
 }
@@ -80,16 +93,6 @@ header {
   display: block;
   width: 135px;
   height: 130px;
-}
-
-address {
-  padding-top: 7px;
-  padding-left: 197px;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-  text-underline-offset: 4px;
 }
 
 .cover {
@@ -123,8 +126,7 @@ address {
 .topLeftElement {
   align-self: flex-start;
   z-index: 11;
-  position: relative;
-  top: 2px;
+  margin-top: 1px;
 }
 
 .middleCenterElement {
@@ -132,18 +134,16 @@ address {
   align-self: center;
   text-align: center;
   z-index: 1;
-  position: relative;
-  top: 22px;
-  left: 15px;
+  margin-top: 21.5px;
+  margin-left: 25px;
 }
 
 .bottomRightElement {
   align-self: flex-end;
   text-align: right;
   z-index: 1;
-  position: relative;
-  top: 41px;
-  left: 29px;
+  margin-top: 18px;
+  margin-left: 40px;
 }
 
 .coverDescription {
@@ -222,7 +222,7 @@ address {
   flex-wrap: wrap;
 }
 
-.cardMovie, .cardBook, .cardPic {
+.cardContent {
   position: relative;
   background-size: cover;
   background-position: center;
@@ -302,9 +302,8 @@ address {
 }
 
 .aboutLogoImage {
-  position: relative;
-  top: 64px;
-  left: 46.48px;
+  margin-top:63px;
+  margin-left: 45px;
   width: 148px;
   height: 114px;
 }
@@ -343,13 +342,13 @@ address {
   align-items: center;
   gap: 110px;
   height: auto;
-  padding-top: 175px;
+  padding-top: 180px;
   padding-right: 13px;
 }
 
 footer .address {
-  margin-bottom: 61px;
-  padding-left: 49px;
+  margin-bottom: 59px;
+  padding-left: 52px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -357,7 +356,7 @@ footer .address {
   text-align: left;
   text-underline-offset: 4px;
 }
-
+ 
 .footerMenu {
   padding-bottom: 89px;
   padding-left: 14px;
