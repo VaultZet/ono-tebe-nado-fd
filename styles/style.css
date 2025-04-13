@@ -203,6 +203,7 @@ address {
   gap: 25px;
   flex-wrap: wrap;
   padding-top: 25px;
+  margin-bottom: 31px;
 }
 
 
@@ -243,7 +244,7 @@ address {
    background-image: url(../images/card-lot-03.jpg);
 }
 
-.cardTitleMovie, .cardTitleBook, .cardTitlePic {
+.cardTitle {
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
@@ -256,7 +257,7 @@ address {
   z-index: 1;
 }
 
-.cardTextMovie, .cardTextBook, .cardTextPic {
+.cardText {
   padding-bottom: 48px;
   padding-left: 40px;
   padding-right: 40px;
@@ -268,17 +269,14 @@ address {
 }
 
 .lotsLookMoreLinkA {
-  text-decoration: none;
-}
-
-.lotsLookMoreLink {
-  padding-left: 64px;
+  padding-left: 63px;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-decoration: underline;
   text-underline-offset: 4px;
   padding-top: 31px;
+  
 }
 
 .coverImage {
