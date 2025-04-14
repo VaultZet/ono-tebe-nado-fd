@@ -114,13 +114,14 @@ address {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 165px 50px 147px;
+  padding: 165px 50px 75px 50px;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-bottom: 30px;
 }
 
 .topLeftElement {
@@ -139,11 +140,11 @@ address {
 }
 
 .bottomRightElement {
-  align-self: flex-end;
+  align-self: center;
   text-align: right;
   z-index: 1;
-  margin-top: 18px;
-  margin-left: 40px;
+  margin-top: 18.5px;
+  margin-left: 640px;
 }
 
 .coverDescription {
@@ -151,10 +152,10 @@ address {
   align-items: baseline;
   justify-content: space-evenly;
   padding: 0px 50px 55px 78px;
-  gap: 79px;
+  gap: 82px;
   text-transform: uppercase;
   color: #FFFFFF;
-}
+ }
 
 .coverDescriptionText {
   z-index: 11;
@@ -165,14 +166,13 @@ address {
   text-align: center;
   text-transform: uppercase;
   word-spacing: 18px;
-  position: relative;
-  right: 29px;
+  
 }
 
 .betButton {
   z-index: 11;
   border: 1px solid currentColor;
-  padding: 12px 32px 11px 31px;
+  padding: 13px 31px 11px 31px;
   color: white;
   font-weight: 500;
   font-size: 22px;
