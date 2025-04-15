@@ -98,9 +98,9 @@ address {
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
 }
 
@@ -113,49 +113,49 @@ address {
 .mainText {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  margin-bottom: 30px;
   padding: 165px 50px 75px 50px;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 0.3em;
+  text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 30px;
 }
 
 .topLeftElement {
-  align-self: flex-start;
   z-index: 11;
+  align-self: flex-start;
   margin-top: 1px;
 }
 
 .middleCenterElement {
+  z-index: 1;
   display: block;
   align-self: center;
-  text-align: center;
-  z-index: 1;
   margin-top: 21.5px;
   margin-left: 25px;
+  text-align: center;
 }
 
 .bottomRightElement {
-  align-self: center;
-  text-align: right;
   z-index: 1;
+  align-self: center;
   margin-top: 18.5px;
   margin-left: 640px;
+  text-align: right;
 }
 
 .coverDescription {
   display: flex;
-  align-items: baseline;
   justify-content: space-evenly;
-  padding: 0px 50px 55px 78px;
+  align-items: baseline;
   gap: 82px;
-  text-transform: uppercase;
+  padding: 0px 50px 55px 46px;
   color: #FFFFFF;
- }
+  text-transform: uppercase;
+}
 
 .coverDescriptionText {
   z-index: 11;
@@ -166,13 +166,13 @@ address {
   text-align: center;
   text-transform: uppercase;
   word-spacing: 18px;
-  
 }
 
 .betButton {
   z-index: 11;
+  margin-left: 29px;
   border: 1px solid currentColor;
-  padding: 13px 31px 11px 31px;
+  padding: 13px 31px 13px 31px;
   color: white;
   font-weight: 500;
   font-size: 22px;
@@ -199,37 +199,38 @@ address {
 .lotsCardList {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 25px;
   flex-wrap: wrap;
-  padding-top: 25px;
+  justify-content: flex-start;
+  gap: 25px;
   margin-bottom: 31px;
+  padding-top: 25px;
+  margin-left: 20px;
 }
 
 
 .lotsCardListItem {
-  list-style-type: none;
   width: 334px;
   min-height: 596px;
+  list-style-type: none;
 }
 
 .cardContent {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
   flex-wrap: wrap;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cardContent {
   position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .cardMovie {
@@ -245,37 +246,37 @@ address {
 }
 
 .cardTitle {
+  z-index: 1;
+  padding-top: 48px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
   text-decoration-line: underline;
   text-transform: uppercase;
-  color: #FFFFFF;
-  padding-top: 48px;
-  padding-left: 40px;
-  padding-right: 40px;
-  z-index: 1;
 }
 
 .cardText {
+  z-index: 1;
+  padding-right: 40px;
   padding-bottom: 48px;
   padding-left: 40px;
-  padding-right: 40px;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #FFFFFF;
-  z-index: 1;
 }
 
 .lotsLookMoreLinkA {
+  padding-top: 31px;
   padding-left: 63px;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-decoration: underline;
   text-underline-offset: 4px;
-  padding-top: 31px;
   
 }
 
@@ -302,10 +303,10 @@ address {
 }
 
 .aboutLogoImage {
-  margin-top:63px;
-  margin-left: 45px;
   width: 148px;
   height: 114px;
+  margin-top:63px;
+  margin-left: 45px;
 }
 
 .aboutTitle {
@@ -348,7 +349,7 @@ address {
 
 footer .address {
   margin-bottom: 59px;
-  padding-left: 52px;
+  padding-left: 50px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
