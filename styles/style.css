@@ -203,8 +203,8 @@ address {
   justify-content: flex-start;
   gap: 25px;
   margin-bottom: 31px;
-  padding-top: 25px;
   margin-left: 20px;
+  padding-top: 25px;
 }
 
 
@@ -215,19 +215,13 @@ address {
 }
 
 .cardContent {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.cardContent {
-  position: relative;
-  display: flex;
   justify-content: space-between;
   align-content: center;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
